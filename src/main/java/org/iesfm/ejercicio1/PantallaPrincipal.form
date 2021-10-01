@@ -23,31 +23,43 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="1" attributes="0">
-              <EmptySpace pref="277" max="32767" attributes="0"/>
-              <Component id="jButton1" min="-2" pref="113" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
+          <Group type="102" attributes="0">
+              <EmptySpace pref="62" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jButtonIrDialogo" min="-2" pref="113" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jLabelSaludo" min="-2" pref="284" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
           </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="1" attributes="0">
-              <EmptySpace pref="236" max="32767" attributes="0"/>
-              <Component id="jButton1" min="-2" pref="53" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="99" max="-2" attributes="0"/>
+              <Component id="jLabelSaludo" min="-2" pref="26" max="-2" attributes="0"/>
+              <EmptySpace pref="111" max="32767" attributes="0"/>
+              <Component id="jButtonIrDialogo" min="-2" pref="53" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="javax.swing.JButton" name="jButton1">
+    <Component class="javax.swing.JButton" name="jButtonIrDialogo">
       <Properties>
         <Property name="text" type="java.lang.String" value="Ir a di&#xe1;logo"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonIrDialogoActionPerformed"/>
       </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelSaludo">
     </Component>
   </SubComponents>
 </Form>
